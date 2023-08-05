@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime&family=Work+Sans:wght@300;500&display=swap");
+
+body {
+  background: #fae7f0;
+  font: 300 14px/1.5 "Work Sans", sans-serif;
+}
+
+h1 {
+  padding: 50px 0 100px;
+  text-align: center;
+  font: 400 50px/1.2 "Abril Fatface", cursive;
+  color: #b00a5d;
+}
+
+main {
+  margin: 0 50px 100px;
+}
+table {
+  margin: 0 auto;
+  max-width: 800px;
+  border-collapse: collapse;
+  border: 5px solid #ec5fa4;
+  text-align: center;
+  background-color: #f3d5e3;
+}
+
+th {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  border: 3px solid #f384ba;
+  text-align: center;
+  padding: 15px 25px;
+  background: #ec5fa4;
+  color: #fae7f0;
+}
+
+td {
+  padding: 20px 10px;
+  border: 3px solid #f384ba;
+}
+
+td:last-child {
+  text-align: left;
+}
+code {
+  color: #00afa2;
+  font: 400 20px/1.5 "Courier Prime", monospace;
+}
